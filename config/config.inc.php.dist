@@ -45,6 +45,7 @@ $_DVWA[ 'disable_authentication' ] = getenv('DISABLE_AUTHENTICATION') ?: false;
 
 define ('MYSQL', 'mysql');
 define ('SQLITE', 'sqlite');
+#test case for semgrep
 
 # SQLi DB Backend
 #   Use this to switch the backend database used in the SQLi and Blind SQLi labs.
@@ -55,4 +56,5 @@ $_DVWA['SQLI_DB'] = getenv('SQLI_DB') ?: MYSQL;
 #$_DVWA['SQLITE_DB'] = 'sqli.db';
 
 ?>
+
 
